@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+body
+{	 
+	background-color: rgba(40,40,45,1);
+}
+
+div#tudo
+{
+	padding: 0px 10px 20px 10px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+	width: 1000px;
+	position: relative;
+	top: 120px;
+	margin: 0px auto 200px auto;
+}
+
+div#comentario
+{
+	background-color: rgba(60,60,65,1);
+	
+	padding: 5px;
+	margin: 0px 25px 0px 0px;
+	position: relative;
+	top: 10px;
+}
+div#comentario h1
+{
+	font-family: Arial, sans-serif;
+	font-size: 15pt;
+	color: rgba(255,255,150,.8);
+	
+	display: inline;
+}
+div#comentario h2
+{	
+	font-family: Arial, sans-serif;
+	font-size: 15pt;
+	color: white;
+	
+	display: inline;
+}
+
+form#formulario
+{
+	background-color: rgba(60,60,65,1);
+	margin: 10px 25px 10px 0px;
+	padding: 0px 0px 20px 0px;
+}
+form#formulario h1
+{
+	font-family: Arial, sans-serif;
+	font-size: 15pt;
+	color: rgba(255,255,150,.8);
+	padding: 10px;
+	margin: 0px;
+	display: inline;
+}
+form#formulario h2
+{
+	font-family: Arial, sans-serif;
+	font-size: 15pt;
+	color: white;
+	padding: 10px;
+	margin: 0px;
+	display: inline;
+}
+input#nome
+{
+	margin: 10px;
+	padding: 5px;
+	width: 860px;
+}
+textarea#mensagem
+{
+	margin: 10px;
+	padding: 5px;
+	width: 945px;
+	height: 100px;
+}
+input#enviar
+{
+	margin: 0px 0px 0px 0px;
+	padding: 5px;
+	position: relative;
+	left: 905px;
+}
+
+div#menu
+{
+	width: 100%;
+	background-color: rgba(60,60,65,1);
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+}
+div#menu ul
+{
+	text-align: left;
+}
+div#menu li
+{
+	display: inline-block;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 25px 0px 25px;
+}
+div#menu a
+{	
+	font-family: Arial, sans-serif;
+	font-size: 16pt;
+	text-decoration: none;
+	color: white;
+}
+div#menu a:hover
+{
+	color: rgba(50,50,255,1);
+	text-decoration: underline;
+}

@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+body
+{
+	background-color: rgba(40,40,45,1); 
+}
+
+div#texto
+{
+	padding: 10px 10px 10px 10px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+	width: 1000px;
+	position: relative;
+	top: 120px;
+	margin: 0px auto 200px auto;
+}
+div#texto h1
+{
+	font-family: Arial, sans-serif;
+	font-size: 20pt;
+	color: white;
+	padding: 10px;
+	margin: 0px;
+}
+div#texto h2
+{
+	font-family: Arial, sans-serif;
+	font-size: 20pt;
+	color: white;
+	padding: 10px;
+	margin: 0px;
+	float: left;
+}
+div#texto a
+{
+	font-family: Arial, sans-serif;
+	font-size: 20pt;
+	text-decoration: none;
+	color: white;
+}
+div#texto a:hover
+{
+	color: rgba(50,50,255,1);
+	text-decoration: underline;
+}
+div#titulo
+{
+	font-family: Arial, sans-serif;
+	font-size: 20pt;
+	
+	background-color: rgba(60,60,65,1);
+	
+	margin: -10px -10px 0px -10px;
+}
+div#titulo h1
+{
+	padding: 0px 0px 0px 0px;
+	font-family: Arial, sans-serif;
+	font-size: 20pt;
+	color: white;
+	text-align: center;
+}
+
+img#whatsapp
+{
+	width: 3%;
+	padding: 10px 5px 5px 10px;
+	float: left;
+}
+img#vivo
+{
+	width: 3%;
+	padding: 10px 5px 5px 5px;
+	float: left;
+}
+img#gmail
+{
+	width: 3%;
+	padding: 13px 10px 5px 10px;
+	float: left;
+}
+img#facebook
+{
+	width: 3%;
+	padding: 3px 10px 10px 10px;
+	float: left;
+}
+
+div#menu
+{
+	width: 100%;
+	background-color: rgba(60,60,65,1);
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+}
+div#menu ul
+{
+	text-align: left;
+}
+div#menu li
+{
+	display: inline-block;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 25px 0px 25px;
+}
+div#menu a
+{	
+	font-family: Arial, sans-serif;
+	font-size: 16pt;
+	text-decoration: none;
+	color: white;
+}
+div#menu a:hover
+{
+	color: rgba(50,50,255,1);
+	text-decoration: underline;
+}

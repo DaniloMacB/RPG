@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="_css/login.css"/>
+		<meta charset="UTF-8"/>
+		<title>Danilo Macedo Bakun</title>
+	</head>
+	<body>
+		<div id="menu">
+			<nav>
+				<ul type="disc">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="curriculo.html">Currículo</a></li>
+					<li><a href="contato.html">Contato</a></li>
+					<li><a href="comentarios.php">Comentários</a></li>
+					<li><a href="videos.html">Vídeos</a></li>
+					<li><a href="login.html">Login</a></li>
+				</ul>
+			</nav>
+		</div>
+		
+		<div id="tudo">
+		
+			<form id="formulario" method="POST" action="login.php">		
+				<h1>Usuário:</h1><input type="text" name="usuario" id="usuario"><br>
+				<h1>Senha:</h1><input type="password" name="senha" id="senha"><br>
+				<input type="submit" value="Entrar" name="entrar" id="entrar"><br>
+			</form>
+			
+			<form id="formulario" method="POST" action="cadastro.php">
+				<h1>Usuário:</h1><input type="text" name="usuario" id="usuario"><br>
+				<h1>Senha:</h1><input type="password" name="senha" id="senha"><br>
+				<input type="submit" value="Cadastrar" id="cadastrar" name="cadastrar" id="cadastrar">
+			</form>
+		</div>
+	</body>
+</html>
