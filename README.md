@@ -1,3 +1,7 @@
-Primeiro projeto de site utilizando HTML, CSS, PHP, MySQL, MySQLi e JavaScript.
+Meu primeiro projeto de site 
 
-Possui a finalidade de aprendizado, sem fins comerciais.
+Foi desenvolvido somente por mim
+
+Utilizando HTML, CSS, PHP, MySQL, MySQLi e JavaScript
+
+Possui a finalidade de aprendizado, sem fins comerciais
